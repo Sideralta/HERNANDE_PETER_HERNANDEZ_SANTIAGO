@@ -1,0 +1,34 @@
+[2023-05-25 20:50:11] [ ERROR] [OdontologoDaoH2:42] Nombre de usuario ó password incorrecto
+Wrong user name or password [28000-214]
+[2023-05-25 20:50:11] [ ERROR] [OdontologoDaoH2:58] No se pudo cerrar la conexion: Cannot invoke "java.sql.Connection.close()" because "connection" is null
+[2023-05-25 20:51:30] [ ERROR] [OdontologoDaoH2:42] La base de datos puede que ya esté siendo utilizada: "C:/Users/santi/examen_backend.mv.db". Soluciones Posibles: cierre todas las otras conexiones; use el modo server
+Database may be already in use: "C:/Users/santi/examen_backend.mv.db". Possible solutions: close all other connection(s); use the server mode [90020-214]
+[2023-05-25 20:51:30] [ ERROR] [OdontologoDaoH2:58] No se pudo cerrar la conexion: Cannot invoke "java.sql.Connection.close()" because "connection" is null
+[2023-05-25 20:52:36] [ ERROR] [OdontologoDaoH2:42] Table "ODONTOLOGOS" not found (this database is empty); SQL statement:
+INSERT INTO ODONTOLOGOS (MATRICULA, NOMBRE, APELLIDO) VALUES (?, ?, ?) [42104-214]
+[2023-05-25 20:53:37] [ ERROR] [OdontologoDaoH2:42] Table "ODONTOLOGOS" not found (this database is empty); SQL statement:
+INSERT INTO ODONTOLOGOS (MATRICULA, NOMBRE, APELLIDO) VALUES (?, ?, ?) [42104-214]
+[2023-05-25 20:56:10] [ ERROR] [OdontologoDaoH2:42] Table "ODONTOLOGOS" not found (this database is empty); SQL statement:
+INSERT INTO ODONTOLOGOS (MATRICULA, NOMBRE, APELLIDO) VALUES (?, ?, ?) [42104-214]
+[2023-05-25 20:57:03] [ ERROR] [OdontologoDaoH2:42] Table "ODONTOLOGO" not found (this database is empty); SQL statement:
+INSERT INTO ODONTOLOGO (MATRICULA, NOMBRE, APELLIDO) VALUES (?, ?, ?) [42104-214]
+[2023-05-25 20:57:29] [ ERROR] [OdontologoDaoH2:42] Table "ODONTOLOGO" not found (this database is empty); SQL statement:
+INSERT INTO ODONTOLOGO (MATRICULA, NOMBRE, APELLIDO) VALUES (?, ?, ?) [42104-214]
+[2023-05-25 21:01:28] [ ERROR] [OdontologoDaoH2:42] Table "ODONTOLOGOS" not found (this database is empty); SQL statement:
+INSERT INTO ODONTOLOGOS (MATRICULA, NOMBRE, APELLIDO) VALUES (?, ?, ?) [42104-214]
+[2023-05-25 21:07:54] [ ERROR] [OdontologoDaoH2:42] Columna "MATRICULA" no encontrada
+Column "MATRICULA" not found; SQL statement:
+INSERT INTO ODONTOLOGOS (MATRICULA, NOMBRE, APELLIDO) VALUES (?, ?, ?) [42122-214]
+[2023-05-25 21:09:41] [ ERROR] [OdontologoDaoH2:42] Columna "MATRICULA" no encontrada
+Column "MATRICULA" not found; SQL statement:
+INSERT INTO ODONTOLOGOS (MATRICULA, NOMBRE, APELLIDO) VALUES (?, ?, ?) [42122-214]
+[2023-05-25 21:10:38] [ ERROR] [OdontologoDaoH2:42] Columna "MATRICULA" no encontrada
+Column "MATRICULA" not found; SQL statement:
+INSERT INTO ODONTOLOGOS (MATRICULA, NOMBRE, APELLIDO) VALUES (?, ?, ?) [42122-214]
+[2023-05-25 21:11:31] [ INFO ] [OdontologoDaoH2:37] Odontologo ingresado: 
+Id: 4 - Matricula: 1222 - Nombre: Nombre - Apellido: Apellido
+[2023-05-25 21:14:22] [ INFO ] [OdontologoDaoH2:78] Listado de todos los odontologos: [
+Id: 1 - Matricula: 1234 - Nombre: Santiago - Apellido: Hernandez, 
+Id: 2 - Matricula: 1245 - Nombre: Peter - Apellido: Hernandez, 
+Id: 3 - Matricula: 1111 - Nombre: Lucia - Apellido: Murga, 
+Id: 4 - Matricula: 1222 - Nombre: Nombre - Apellido: Apellido]
