@@ -165,3 +165,33 @@ Id: 3 - Matricula: 123 - Nombre: martinez - Apellido: Gustavo
 Id: 1 - Matricula: 123 - Nombre: Martinez - Apellido: Jose, 
 Id: 2 - Matricula: 123 - Nombre: Martinez - Apellido: Mario, 
 Id: 3 - Matricula: 123 - Nombre: martinez - Apellido: Gustavo]
+[2023-05-26 11:12:18] [ INFO ] [OdontologoDaoMemoria:20] Odontologo guardado: 
+Id: 1 - Matricula: 123 - Nombre: Martinez - Apellido: Jose
+[2023-05-26 11:12:18] [ INFO ] [OdontologoDaoMemoria:20] Odontologo guardado: 
+Id: 2 - Matricula: 123 - Nombre: Martinez - Apellido: Mario
+[2023-05-26 11:12:18] [ INFO ] [OdontologoDaoMemoria:20] Odontologo guardado: 
+Id: 3 - Matricula: 123 - Nombre: martinez - Apellido: Gustavo
+[2023-05-26 11:12:18] [ INFO ] [OdontologoDaoMemoria:26] listado de todos los odontologos: 
+[
+Id: 1 - Matricula: 123 - Nombre: Martinez - Apellido: Jose, 
+Id: 2 - Matricula: 123 - Nombre: Martinez - Apellido: Mario, 
+Id: 3 - Matricula: 123 - Nombre: martinez - Apellido: Gustavo]
+[2023-05-26 11:13:39] [ INFO ] [OdontologoDaoMemoria:20] Odontologo guardado: 
+Id: 1 - Matricula: 123 - Nombre: Martinez - Apellido: Jose
+[2023-05-26 11:13:39] [ INFO ] [OdontologoDaoMemoria:20] Odontologo guardado: 
+Id: 2 - Matricula: 123 - Nombre: Martinez - Apellido: Mario
+[2023-05-26 11:13:39] [ INFO ] [OdontologoDaoMemoria:20] Odontologo guardado: 
+Id: 3 - Matricula: 123 - Nombre: martinez - Apellido: Gustavo
+[2023-05-26 11:13:59] [ INFO ] [OdontologoDaoMemoria:26] listado de todos los odontologos: 
+[]
+[2023-05-26 11:14:00] [ INFO ] [OdontologoDaoMemoria:26] listado de todos los odontologos: 
+[]
+[2023-05-26 11:17:43] [ INFO ] [OdontologoDaoH2:36] Odontologo ingresado: 
+Id: 5 - Matricula: 1222 - Nombre: Maria - Apellido: Perez
+[2023-05-26 11:18:07] [ INFO ] [OdontologoDaoH2:36] Odontologo ingresado: 
+Id: 4 - Matricula: 1222 - Nombre: Maria - Apellido: Perez
+[2023-05-26 11:18:13] [ INFO ] [OdontologoDaoH2:77] Listado de todos los odontologos: [
+Id: 1 - Matricula: 1234 - Nombre: Santiago - Apellido: Hernandez, 
+Id: 2 - Matricula: 1245 - Nombre: Peter - Apellido: Hernandez, 
+Id: 3 - Matricula: 1111 - Nombre: Lucia - Apellido: Murga, 
+Id: 4 - Matricula: 1222 - Nombre: Maria - Apellido: Perez]

@@ -6,7 +6,6 @@ import com.backend.entity.Odontologo;
 import org.apache.log4j.Logger;
 
 import java.sql.*;
-import java.time.LocalDate;
 import java.util.ArrayList;
 import java.util.List;
 
@@ -109,8 +108,6 @@ public class OdontologoDaoH2 implements IDao<Odontologo> {
         String apellidoOdontologo = resultSet.getString("apellido");
         return new Odontologo(idOdontologo, numeroMatricula, nombreOdontologo, apellidoOdontologo);
     }
-
-
 
 
 }
