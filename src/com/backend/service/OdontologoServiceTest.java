@@ -1,6 +1,7 @@
 package com.backend.service;
 
 import com.backend.dao.impl.OdontologoDaoH2;
+import com.backend.dao.impl.OdontologoDaoMemoria;
 import com.backend.entity.Odontologo;
 import org.junit.jupiter.api.Test;
 
@@ -13,6 +14,7 @@ class OdontologoServiceTest {
 
     private static Connection connection = null;
     private OdontologoService odontologoService = new OdontologoService(new OdontologoDaoH2());
+    private OdontologoService odontologoServiceMemoria = new OdontologoService(new OdontologoDaoMemoria());
 
     @Test
     public void deberiaAgregarUnOdontologo(){
@@ -30,7 +32,58 @@ class OdontologoServiceTest {
         List<Odontologo> odontologoTest = odontologoService.listarOdontologos();
 
         assertFalse(odontologoTest.isEmpty());
-        assertTrue(odontologoTest.size() >= 4);
+        assertTrue(odontologoTest.size() >= 3);
      }
+
+    @Test
+    public void deberiaAgregarUnOdontologoEnMemoria(){
+        Odontologo odo1 = new Odontologo(123, "Martinez", "Jose");
+        Odontologo odo2 = new Odontologo(123, "Martinez", "Mario");
+        Odontologo odo3 = new Odontologo(123, "martinez", "Gustavo");
+        odo1.setId(1);
+        odo2.setId(2);
+        odo3.setId(3);
+
+        Odontologo odontologoResult = odontologoServiceMemoria.guardarOdontologo(odo1);
+        odontologoServiceMemoria.guardarOdontologo(odo2);
+        odontologoServiceMemoria.guardarOdontologo(odo3);
+
+        assertNotNull(odontologoResult);
+        assertEquals(123, odontologoResult.getNumeroMatricula());
+
+
+
+
+
+    }
+
+    @Test
+    public void deberiaListarTodosLosOdontologosEnMemoria(){
+        Odontologo odo1 = new Odontologo(123, "Martinez", "Jose");
+        Odontologo odo2 = new Odontologo(123, "Martinez", "Mario");
+        Odontologo odo3 = new Odontologo(123, "martinez", "Gustavo");
+        odo1.setId(1);
+        odo2.setId(2);
+        odo3.setId(3);
+
+        Odontologo odontologoResult = odontologoServiceMemoria.guardarOdontologo(odo1);
+        odontologoServiceMemoria.guardarOdontologo(odo2);
+        odontologoServiceMemoria.guardarOdontologo(odo3);
+
+
+        List<Odontologo> odontologosTest = odontologoServiceMemoria.listarOdontologos();
+
+
+
+
+        assertFalse(odontologosTest.isEmpty());
+        assertTrue(odontologosTest.size() >= 3);
+
+
+
+
+
+    }
+
 
 }

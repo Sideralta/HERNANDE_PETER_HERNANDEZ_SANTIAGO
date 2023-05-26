@@ -32,3 +32,103 @@ Id: 1 - Matricula: 1234 - Nombre: Santiago - Apellido: Hernandez,
 Id: 2 - Matricula: 1245 - Nombre: Peter - Apellido: Hernandez, 
 Id: 3 - Matricula: 1111 - Nombre: Lucia - Apellido: Murga, 
 Id: 4 - Matricula: 1222 - Nombre: Nombre - Apellido: Apellido]
+[2023-05-25 21:43:46] [ INFO ] [OdontologoDaoMemoria:20] Odontologo guardado: 
+Id: 0 - Matricula: 1222 - Nombre: Nombre - Apellido: Apellido
+[2023-05-25 21:44:30] [ INFO ] [OdontologoDaoMemoria:26] listado de todos los odontologos: 
+[]
+[2023-05-25 21:44:37] [ INFO ] [OdontologoDaoMemoria:20] Odontologo guardado: 
+Id: 0 - Matricula: 1222 - Nombre: Nombre - Apellido: Apellido
+[2023-05-25 21:44:42] [ INFO ] [OdontologoDaoMemoria:26] listado de todos los odontologos: 
+[]
+[2023-05-25 21:56:16] [ INFO ] [OdontologoDaoMemoria:20] Odontologo guardado: 
+Id: 1 - Matricula: 123 - Nombre: martinez - Apellido: prueba
+[2023-05-25 21:56:16] [ INFO ] [OdontologoDaoMemoria:20] Odontologo guardado: 
+Id: 2 - Matricula: 123 - Nombre: martinez - Apellido: prueba1
+[2023-05-25 21:56:16] [ INFO ] [OdontologoDaoMemoria:20] Odontologo guardado: 
+Id: 3 - Matricula: 123 - Nombre: martinez - Apellido: prueba2
+[2023-05-25 21:56:16] [ INFO ] [OdontologoDaoMemoria:26] listado de todos los odontologos: 
+[
+Id: 1 - Matricula: 123 - Nombre: martinez - Apellido: prueba, 
+Id: 2 - Matricula: 123 - Nombre: martinez - Apellido: prueba1, 
+Id: 3 - Matricula: 123 - Nombre: martinez - Apellido: prueba2]
+[2023-05-25 22:00:32] [ INFO ] [OdontologoDaoH2:78] Listado de todos los odontologos: [
+Id: 1 - Matricula: 1234 - Nombre: Santiago - Apellido: Hernandez, 
+Id: 2 - Matricula: 1245 - Nombre: Peter - Apellido: Hernandez, 
+Id: 3 - Matricula: 1111 - Nombre: Lucia - Apellido: Murga]
+[2023-05-25 22:01:19] [ INFO ] [OdontologoDaoH2:78] Listado de todos los odontologos: [
+Id: 1 - Matricula: 1234 - Nombre: Santiago - Apellido: Hernandez, 
+Id: 2 - Matricula: 1245 - Nombre: Peter - Apellido: Hernandez, 
+Id: 3 - Matricula: 1111 - Nombre: Lucia - Apellido: Murga]
+[2023-05-25 22:01:25] [ INFO ] [OdontologoDaoH2:37] Odontologo ingresado: 
+Id: 4 - Matricula: 1222 - Nombre: Nombre - Apellido: Apellido
+[2023-05-25 22:01:28] [ INFO ] [OdontologoDaoH2:78] Listado de todos los odontologos: [
+Id: 1 - Matricula: 1234 - Nombre: Santiago - Apellido: Hernandez, 
+Id: 2 - Matricula: 1245 - Nombre: Peter - Apellido: Hernandez, 
+Id: 3 - Matricula: 1111 - Nombre: Lucia - Apellido: Murga, 
+Id: 4 - Matricula: 1222 - Nombre: Nombre - Apellido: Apellido]
+[2023-05-25 22:28:35] [ INFO ] [OdontologoDaoMemoria:20] Odontologo guardado: 
+Id: 1 - Matricula: 123 - Nombre: Martinez - Apellido: Jose
+[2023-05-25 22:28:35] [ INFO ] [OdontologoDaoMemoria:20] Odontologo guardado: 
+Id: 2 - Matricula: 123 - Nombre: Martinez - Apellido: Mario
+[2023-05-25 22:28:35] [ INFO ] [OdontologoDaoMemoria:20] Odontologo guardado: 
+Id: 3 - Matricula: 123 - Nombre: martinez - Apellido: Gustavo
+[2023-05-25 22:28:35] [ INFO ] [OdontologoDaoMemoria:26] listado de todos los odontologos: 
+[
+Id: 1 - Matricula: 123 - Nombre: Martinez - Apellido: Jose, 
+Id: 2 - Matricula: 123 - Nombre: Martinez - Apellido: Mario, 
+Id: 3 - Matricula: 123 - Nombre: martinez - Apellido: Gustavo]
+[2023-05-25 22:32:52] [ INFO ] [OdontologoDaoMemoria:20] Odontologo guardado: 
+Id: 1 - Matricula: 123 - Nombre: Martinez - Apellido: Jose
+[2023-05-25 22:32:52] [ INFO ] [OdontologoDaoMemoria:20] Odontologo guardado: 
+Id: 2 - Matricula: 123 - Nombre: Martinez - Apellido: Mario
+[2023-05-25 22:32:52] [ INFO ] [OdontologoDaoMemoria:20] Odontologo guardado: 
+Id: 3 - Matricula: 123 - Nombre: martinez - Apellido: Gustavo
+[2023-05-25 22:37:14] [ INFO ] [OdontologoDaoMemoria:26] listado de todos los odontologos: 
+[]
+[2023-05-25 22:37:47] [ INFO ] [OdontologoDaoMemoria:26] listado de todos los odontologos: 
+[]
+[2023-05-25 22:39:31] [ INFO ] [OdontologoDaoMemoria:20] Odontologo guardado: 
+Id: 1 - Matricula: 123 - Nombre: Martinez - Apellido: Jose
+[2023-05-25 22:39:31] [ INFO ] [OdontologoDaoMemoria:20] Odontologo guardado: 
+Id: 2 - Matricula: 123 - Nombre: Martinez - Apellido: Mario
+[2023-05-25 22:39:31] [ INFO ] [OdontologoDaoMemoria:20] Odontologo guardado: 
+Id: 3 - Matricula: 123 - Nombre: martinez - Apellido: Gustavo
+[2023-05-25 22:39:35] [ INFO ] [OdontologoDaoMemoria:26] listado de todos los odontologos: 
+[]
+[2023-05-25 22:39:50] [ INFO ] [OdontologoDaoMemoria:26] listado de todos los odontologos: 
+[]
+[2023-05-25 22:41:55] [ INFO ] [OdontologoDaoMemoria:26] listado de todos los odontologos: 
+[]
+[2023-05-25 22:42:25] [ INFO ] [OdontologoDaoMemoria:20] Odontologo guardado: 
+Id: 1 - Matricula: 123 - Nombre: Martinez - Apellido: Jose
+[2023-05-25 22:42:25] [ INFO ] [OdontologoDaoMemoria:20] Odontologo guardado: 
+Id: 2 - Matricula: 123 - Nombre: Martinez - Apellido: Mario
+[2023-05-25 22:42:25] [ INFO ] [OdontologoDaoMemoria:20] Odontologo guardado: 
+Id: 3 - Matricula: 123 - Nombre: martinez - Apellido: Gustavo
+[2023-05-25 22:42:25] [ INFO ] [OdontologoDaoMemoria:26] listado de todos los odontologos: 
+[
+Id: 1 - Matricula: 123 - Nombre: Martinez - Apellido: Jose, 
+Id: 2 - Matricula: 123 - Nombre: Martinez - Apellido: Mario, 
+Id: 3 - Matricula: 123 - Nombre: martinez - Apellido: Gustavo]
+[2023-05-25 22:42:26] [ INFO ] [OdontologoDaoMemoria:20] Odontologo guardado: 
+Id: 1 - Matricula: 123 - Nombre: Martinez - Apellido: Jose
+[2023-05-25 22:42:26] [ INFO ] [OdontologoDaoMemoria:20] Odontologo guardado: 
+Id: 2 - Matricula: 123 - Nombre: Martinez - Apellido: Mario
+[2023-05-25 22:42:26] [ INFO ] [OdontologoDaoMemoria:20] Odontologo guardado: 
+Id: 3 - Matricula: 123 - Nombre: martinez - Apellido: Gustavo
+[2023-05-25 22:42:26] [ INFO ] [OdontologoDaoMemoria:26] listado de todos los odontologos: 
+[
+Id: 1 - Matricula: 123 - Nombre: Martinez - Apellido: Jose, 
+Id: 2 - Matricula: 123 - Nombre: Martinez - Apellido: Mario, 
+Id: 3 - Matricula: 123 - Nombre: martinez - Apellido: Gustavo]
+[2023-05-25 22:42:42] [ INFO ] [OdontologoDaoMemoria:20] Odontologo guardado: 
+Id: 1 - Matricula: 123 - Nombre: Martinez - Apellido: Jose
+[2023-05-25 22:42:42] [ INFO ] [OdontologoDaoMemoria:20] Odontologo guardado: 
+Id: 2 - Matricula: 123 - Nombre: Martinez - Apellido: Mario
+[2023-05-25 22:42:42] [ INFO ] [OdontologoDaoMemoria:20] Odontologo guardado: 
+Id: 3 - Matricula: 123 - Nombre: martinez - Apellido: Gustavo
+[2023-05-25 22:42:42] [ INFO ] [OdontologoDaoMemoria:26] listado de todos los odontologos: 
+[
+Id: 1 - Matricula: 123 - Nombre: Martinez - Apellido: Jose, 
+Id: 2 - Matricula: 123 - Nombre: Martinez - Apellido: Mario, 
+Id: 3 - Matricula: 123 - Nombre: martinez - Apellido: Gustavo]

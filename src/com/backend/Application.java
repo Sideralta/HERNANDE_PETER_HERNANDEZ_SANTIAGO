@@ -1,5 +1,9 @@
 package com.backend;
 
+import com.backend.dao.impl.OdontologoDaoMemoria;
+import com.backend.entity.Odontologo;
+import com.backend.service.OdontologoService;
+
 import java.sql.Connection;
 import java.sql.DriverManager;
 
@@ -19,5 +23,13 @@ public class Application {
                 ex.printStackTrace();
             }
         }
+
+
+
+
     }
+
+
+
+
 }
